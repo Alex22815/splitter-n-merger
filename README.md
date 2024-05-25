@@ -1,6 +1,8 @@
 # Splitter and Merger files without any requirements
 Linux - working!
+
 Windows - not tested yet.
+
 MacOS - not tested yet.
 
 # splitter.py
