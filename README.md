@@ -1,7 +1,7 @@
 # Splitter and Merger files without any requirements
 Linux - working!
 
-Windows - not tested yet.
+Windows - working!
 
 MacOS - not tested yet.
 
