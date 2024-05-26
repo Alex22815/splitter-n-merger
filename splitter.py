@@ -34,13 +34,14 @@ input_f = sys.argv[1] if len(sys.argv) > 1 else None
 mb_size = sys.argv[2] if len(sys.argv) > 2 else None
 
 if input_f is None or mb_size is None:
-    print("Missing arguments. Use 'splitter.py help' for help.")
-    # Lil bro got error
-else:
+    
     if sys.argv[1] == "help":
         print(f"splitter - splits file to chunks.\n\nHow to use: splitter.py inputFile ChunkSizeInMB.\nMade by alexmiles")
     else:
-        split_file(str(sys.argv[1]), mb_size)
+        print("Missing or unknows arguments. Use 'splitter.py help' for help.")
+    # Lil bro got error
+else:
+    split_file(str(sys.argv[1]), mb_size)
    
 #input_file = str(input("Enter path to file: "))
 #split_file(input_file)
