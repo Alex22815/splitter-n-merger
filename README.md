@@ -17,7 +17,7 @@ python splitter.py input_file chunk_size
 
 **chunk_size** - size of your chunk (fr??)
 
-chunk_size should be integer.
+chunk_size must be integer.
 
 # merger.py
 merger.py merges your chunks into one file.
